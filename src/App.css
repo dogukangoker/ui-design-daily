@@ -1,9 +1,143 @@
+body{
+  background-color: #E9EBFF;
+}
+
 .App {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 100vh;
-  background-color: #E0F2FA;
+  height: 100vh;  
+  width: 646px;
+  margin: 0 auto;
+
+}
+.ring{
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ring .ring-o{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 83px;
+  height: 83px;
+  border-radius: 40px;
+  background-color: #0C0E41;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  height: 305px;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+  width: 646px;
+}
+
+.box-header{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: 22px;
+  font-weight: 600;
+  height: 33px;
+  width: 279px;
+  padding: 30px;
+}
+
+.box-message{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 89px;
+  width: 616px;
+  padding: 30px;
+  margin-top: -30px;
+}
+
+.box-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 89px;
+  width: 89px;
+  background-color: #FFE9F2;
+  border-radius: 8px;
+  
+}
+
+.box-message-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 89px;
+  width: 496px;
+  padding: 30px;
+  margin-top: -30px;
+}
+
+.message-header{
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.message-content{
+  font-size: 18px;
+  font-weight: 400;
+  color: #0C0E41;
+  margin-top: 10px;
+}
+
+.links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.link-one{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 137px;
+  border-radius: 34px;
+  border: 1px solid #158ABB;
+  margin-right: 20px;
+}
+
+.link-one div{
+  display: flex;
+  margin-left: 10px;
+  color: #158ABB;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.link-two{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 137px;
+  border-radius: 34px;
+  border: 1px solid #158ABB;
+  margin-right: 20px;
+}
+
+.link-two div{
+  display: flex;
+  margin-left: 10px;
+  color: #158ABB;
+  font-size: 18px;
+  font-weight: 600;
 }
