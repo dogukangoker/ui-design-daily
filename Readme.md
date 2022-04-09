@@ -1,3 +1,3 @@
-# [UI Design Daily - Day 1572](https://www.uidesigndaily.com)
+# [UI Design Daily - Day 1557](https://www.uidesigndaily.com)
 
-![design](https://www.uidesigndaily.com/uploads/1572/day_1572.png)
+![design](https://www.uidesigndaily.com/uploads/1557/day_1557.png)
